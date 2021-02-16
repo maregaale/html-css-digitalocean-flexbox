@@ -8,6 +8,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* container */
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
 /* typo */
 h4 {
   color: rgb(91, 105, 135);
@@ -15,9 +21,19 @@ h4 {
   text-transform: uppercase;
 }
 
-.container {
-  max-width: 1170px;
-  margin: auto;
+.color_primary {
+  color:  #006aff;
+}
+
+/* links e boittoni */
+.custom_link {
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.custom_link:hover {
+  color: #1633ff;
 }
 
 /* header */
@@ -60,5 +76,14 @@ header .container .img_container img {
   header h4 {
       font-size: 15px;
     }
+
+}
+
+@media screen and (max-width: 570px) {
+
+  header h4, .custom_link  {
+    font-size: 13px;
+  }
+
 
 }

@@ -129,14 +129,13 @@ main .container ul li a:hover {
 
 .blocks {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
   flex-wrap: wrap;
   flex-basis: 70%;
 }
 
 .block {
-  flex-basis: 50%;
-  padding: 0 75px;
+  flex-basis: 35%;
   margin-bottom: 50px;
 }
 

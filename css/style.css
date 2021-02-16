@@ -160,6 +160,11 @@ main .container ul li a:hover {
 }
 
 @media screen and (max-width: 768px) {
+
+  .container {
+    padding: 0 15px;
+  }
+
   header .container {
     flex-wrap: wrap;
   }
@@ -172,12 +177,25 @@ main .container ul li a:hover {
       font-size: 19px;
   }
 
+  /* main */
+  main {
+    padding-bottom: 0;
+  }
+
   main h5 {
     padding: 10px 30px;
+
   }
 
   main .container {
     margin-top: 10px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  main .container ul, .block, .blocks {
+    flex-basis: 100%;
+    margin-bottom: 40px;
   }
 
 }

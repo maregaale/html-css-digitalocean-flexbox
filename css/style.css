@@ -16,9 +16,28 @@ body {
 
 /* typo */
 h4 {
-  color: rgb(91, 105, 135);
-  font-size: 14px;
-  text-transform: uppercase;
+  color: #031b4e;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+h2 {
+  font-size: 36px;
+  color: #031b4e;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 20px;
+  color: #5b6987;
+  font-weight: 400;
+}
+
+p {
+  color: rgba(3, 27, 78, 0.6);
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .color_primary {
@@ -43,6 +62,13 @@ header {
   padding: 50px 0;
 }
 
+header h4 {
+  color: rgb(91, 105, 135);
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 0;
+}
+
 header .container {
   display: flex;
   justify-content: center;
@@ -57,6 +83,64 @@ header .container .img_container {
 header .container .img_container img {
   width: 100%;
 }
+/* /header */
+
+/* corpo del progetto */
+main {
+  padding: 80px 0;
+}
+
+main h2 {
+  text-align: center;
+}
+main h5 {
+  padding: 10px 82px;
+  margin-bottom: 30px;
+}
+
+main .container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+main .container ul {
+  list-style: none;
+}
+
+main .container ul li a {
+  border-left: 2px solid lightgrey;
+  display: inline-block;
+  padding: 10px;
+  color: rgba(3, 27, 78, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+main .container ul li a:hover {
+  color: black;
+}
+
+main .container ul li a:hover {
+  border-left: 2px solid blue;
+}
+
+.blocks {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-basis: 70%;
+}
+
+.block {
+  flex-basis: 50%;
+  padding: 0 75px;
+  margin-bottom: 50px;
+}
+
+/* /corpo del progetto */
+
 
 /* responsive */
 @media screen and (max-width: 1200px) {

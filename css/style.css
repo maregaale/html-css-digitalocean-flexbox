@@ -180,11 +180,11 @@ main .container ul li a:hover {
   /* main */
   main {
     padding-bottom: 0;
+    padding-top: 60px;
   }
 
   main h5 {
     padding: 10px 30px;
-
   }
 
   main .container {
@@ -196,6 +196,14 @@ main .container ul li a:hover {
   main .container ul, .block, .blocks {
     flex-basis: 100%;
     margin-bottom: 40px;
+  }
+
+  main .container ul li a, main .block h4 {
+    font-size: 20px;
+  }
+
+  main .block p {
+    font-size: 18px;
   }
 
 }

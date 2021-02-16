@@ -7,3 +7,58 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+/* typo */
+h4 {
+  color: rgb(91, 105, 135);
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+/* header */
+header {
+  background-color: #f3f5f9;
+  text-align: center;
+  padding: 50px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .container .img_container {
+  flex-basis: calc(100% / 6);
+  padding: 10px;
+}
+
+header .container .img_container img {
+  width: 100%;
+}
+
+/* responsive */
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  header h4 {
+      font-size: 15px;
+    }
+
+}
